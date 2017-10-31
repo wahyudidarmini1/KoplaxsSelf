@@ -42,6 +42,3 @@ Thanks For :
 - Alfathdirk
 - Farzain
 - Dan Kawan²
-=======================
-Koplaxs & One Piece Bot
-=======================
