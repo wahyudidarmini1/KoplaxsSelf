@@ -6,15 +6,15 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="ErQS0QFIG8Nk1q2is1jc.6mZHYoaLrB6ZemDONQ/Mha.633Gg15t8V1KeJ593nxiSqmPOl5WQDpqap2IELgUP30=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(token="ErZH0FqlXLXup9szxVp2.SOI7MV+GPU//ng7dyQOwmG.oFTEWafd+Ec21ujVSLPAnQDTO4zl6r+2LDBqH8wAa/Y=")
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(qr=True)
+ki2.login(token="ErMULLuwxS1dWLCQYZoe.4uWnRTJU51yT+/CjXTyHBG.guziOKyKwMExq5aNy59YVAb3cF+GDeTehTxccXPam/Q=")
 ki2.loginResult()
 
 print "login success plak"
@@ -74,8 +74,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots=[mid,kimid,ki2mid]
-owner =["ued156c86ffa56024c0acba16f7889e6d"]
-admin = ["ued156c86ffa56024c0acba16f7889e6d"]
+owner =["u6b34b703cbc5fc83cd1e5b6832a05352"]
+admin = ["u6b34b703cbc5fc83cd1e5b6832a05352"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -1706,7 +1706,7 @@ def bot(op):
                     cl.sendText(msg.to,"One Piece Team Mau Bersih² Group Sampah Nih")
                     cl.sendText(msg.to,"Karna Ini Group Sampah Jadi Mau Di Bersihin Dulu Yah\n★Jangan Baper...\n★Jangan Nangis\n★Jangan Cengeng\nBawa Enjoy Aja Kawan♪")
                     msg.contentType = 13
-                    msg.contentMetadata = {'mid': 'uc9363b5a4bfacd981c3e3c082bc4d5ef'}
+                    msg.contentMetadata = {'mid': 'u6b34b703cbc5fc83cd1e5b6832a05352'}
                     cl.sendMessage(msg)
                     cl.sendText(msg.to,"This My Team")
                     targets = []
